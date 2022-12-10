@@ -7,23 +7,28 @@ readme = "README.md"
 packages = [{include = "otto_recommender_system"}]
 
 [tool.poetry.dependencies]
-python = "^3.8"
-numpy = "^1.23.4"
-pandas = "^1.5.1"
+python = "^3.9"
+numpy = "^1.23.5"
+pandas = "^1.5.2"
 matplotlib = "^3.6.2"
 seaborn = "^0.12.1"
 plotly = "^5.11.0"
 jupyterlab = "^3.5.0"
 scikit-learn = "^1.1.3"
 tqdm = "^4.64.1"
-pyarrow = "^10.0.0"
-ipywidgets = "7.7.1"
+pyarrow = "^10.0.1"
+ipywidgets = "^8.0.2"
 wandb = "^0.13.5"
 matplotlib-venn = "^0.11.7"
 gensim = "^4.2.0"
 lightgbm = "^3.3.3"
-ray = "^2.1.0"
+beartype = "^0.11.0"
 
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.10.0"
+flake8 = "^6.0.0"
+isort = "^5.10.1"
 
 [build-system]
 requires = ["poetry-core"]
