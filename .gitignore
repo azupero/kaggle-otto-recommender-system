@@ -3,8 +3,8 @@ input/*
 !.gitkeep
 output/*
 !.gitkeeps
-recsys-dataset
-.ipynb_checkpoints
+recsys-dataset/
+notebook/*/.ipynb_checkpoints/
 
 # Created by https://www.gitignore.io/api/macos,python
 # Edit at https://www.gitignore.io/?templates=macos,python
